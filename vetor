@@ -1,0 +1,45 @@
+importar  java . . _ Local ;
+importar  java . . _ Scanner ;
+
+public  class  abaixo_da_media {
+
+	public  static  void  principal ( String [] args ) {
+/*Fazer um programa para ler um número inteiro N e depois um vetor de N números reais. Em seguida,
+mostrar na tela a média aritmética de todos elementos com três casas decimais. Depois mostrar todos
+os elementos do vetor que estejam abaixo da média, com uma casa decimal cada. 
+
+		Local . setDefault ( Locale . US );
+		Scanner  sc = novo  Scanner ( System . in );
+		
+		int  n ;
+	     soma dupla , média ;
+
+	    Sistema . fora . print ( "Quantos elementos vão ter o vetor?" );
+	    n = sc . proximoInt ();
+
+	    duplo [] vetor = novo  duplo [ n ];
+
+	    for ( int  i = 0 ; i < n ; i ++) {
+	    	Sistema . fora . print ( "Digite um numero: " );
+			vetor [ i ] = sc . próximoDuplo ();
+	    }
+
+		soma = 0 ;
+	    for ( int  i = 0 ; i < n ; i ++) {
+	        soma = soma + vetor [ i ];
+	    }
+
+	    média = soma / n ;
+
+	    Sistema . fora . printf ( "\nMÍDIA DO VETOR = %.3f\n" , mídia );
+	    Sistema . fora . println ( "ELEMENTOS ABAIXO DA MÍDIA:" );
+
+	    for ( int  i = 0 ; i < n ; i ++) {
+	        if ( vetor [ i ] < mídia ) {
+	        	Sistema . fora . printf ( "%.1f\n" , vetor [ i ]);
+	        }
+	    }
+
+		sc . fechar ();
+	}
+}
